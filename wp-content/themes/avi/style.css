@@ -1,0 +1,447 @@
+/*
+Theme Name: Avi
+Theme URI: https://uladzimirkulesh.com/portfolio/avi
+Author: Uladzimir Kulesh
+Author URI: https://uladzimirkulesh.com
+Description: Introducing Avi - the ultimate WordPress theme for digital designers looking to showcase their portfolio in style! With its sleek and modern design, Avi is the perfect platform to showcase your creative work and impress potential clients. Whether you're a graphic designer, web developer, or photographer, Avi has got you covered. Featuring a fully customizable layout, Avi allows you to effortlessly create a stunning portfolio that truly reflects your unique style and brand. Choose from a variety of pre-designed templates or create your own from scratch - the possibilities are endless! So why settle for a generic portfolio when you can have Avi - the ultimate WordPress theme for digital designers. Get ready to showcase your talent and elevate your brand with Avi. Try it now!
+Requires at least: 6.1
+Tested up to: 6.6
+Requires PHP: 5.6
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: avi
+Tags: one-column, custom-menu, featured-images, full-site-editing, block-patterns, threaded-comments, translation-ready, wide-blocks, blog, portfolio
+*/
+
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+
+	font-feature-settings: "cv10";
+	font-variation-settings: "opsz" 32;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+figcaption {
+	text-align: center;
+}
+
+/*
+Clearings
+*/
+
+.header::after,
+.footer::after,
+.wp-block-post-content::after,
+.comment-content::after,
+.textwidget::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*
+Links and buttons
+*/
+
+a,
+.wp-element-button,
+.wp-block-button__link {
+	transition-property: color, background-color, border-color;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+}
+
+a {
+	text-decoration-thickness: 1px !important;
+	text-underline-offset: 0.15em;
+}
+
+.wp-element-button,
+.wp-block-button__link {
+	position: relative;
+}
+
+/*
+Fonts
+*/
+
+.has-medium-font-size {
+	line-height: 1.44444;
+}
+
+.has-large-font-size {
+	line-height: 1.33333;
+}
+
+.has-x-large-font-size {
+	line-height: 1.33333;
+}
+
+.has-xx-large-font-size {
+	line-height: 1.2;
+}
+
+.has-xxx-large-font-size {
+	line-height: 1.16667;
+}
+
+.has-xxxx-large-font-size {
+	line-height: 1.08333;
+}
+
+/*
+Removing the "more" tag to remove space before it
+*/
+
+span[id^="more"] {
+	display: none;
+}
+
+/*
+Helper classes
+*/
+
+.has-global-padding-top {
+	padding-top: var(--wp--custom--spacing--global-padding-top);
+}
+
+.has-global-padding-bottom {
+	padding-bottom: var(--wp--custom--spacing--global-padding-bottom);
+}
+
+/*-------------------------------------------------------
+Forms
+-------------------------------------------------------*/
+
+::placeholder {
+	color: var(--wp--preset--color--contrast-4);
+}
+
+::-moz-placeholder {
+	opacity: 1;
+}
+
+/*
+Form
+*/
+
+form > * {
+	margin-top: var(--wp--style--block-gap);
+	margin-bottom: var(--wp--style--block-gap);
+}
+
+form > :first-child {
+	margin-top: 0;
+}
+
+form > :last-child {
+	margin-bottom: 0;
+}
+
+/*
+Label
+*/
+
+label,
+.wp-block-search__label {
+	display: block;
+	margin-bottom: calc(var(--wp--style--block-gap) / 4);
+
+	color: var(--wp--preset--color--contrast-2);
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: var(--wp--custom--font-weight--text);
+}
+
+label .required {
+	color: var(--wp--preset--color--danger);
+}
+
+/*
+Fieldset
+*/
+
+fieldset {
+	margin-top: var(--wp--style--block-gap);
+	margin-bottom: var(--wp--style--block-gap);
+}
+
+/*
+Inputs
+*/
+
+:where(input:not([type="checkbox"]):not([type="submit"]), textarea, select),
+.wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]),
+.wp-block-post-comments-form textarea,
+.wp-block-search__input {
+	appearance: none;
+	outline: none;
+
+	color: var(--wp--preset--color--contrast);
+	font-family: inherit;
+	font-size: var(--wp--preset--font-size--normal);
+	font-weight: var(--wp--custom--font-weight--text);
+	line-height: var(--wp--custom--line-height);
+	letter-spacing: var(--wp--custom--letter-spacing--text);
+
+	background-color: var(--wp--preset--color--base-2);
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--wp--preset--color--contrast-3);
+	border-radius: 0.25rem;
+	box-shadow: none;
+
+	transition: all 0.25s ease-in-out;
+}
+
+:where(input:not([type="checkbox"]):not([type="submit"]), textarea),
+.wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]),
+.wp-block-post-comments-form textarea,
+.wp-block-search__input {
+	width: 100%;
+	max-width: 100%;
+	padding: 0.6875rem 1rem;
+}
+
+:not(.wp-block-more) > :where(input:not([type="checkbox"]):not([type="submit"]), textarea),
+.wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]),
+.wp-block-post-comments-form textarea,
+.wp-block-search__input {
+	display: block;
+	min-height: 3rem;
+}
+
+:where(select) {
+	height: 3rem;
+	max-width: 100%;
+	padding: 0 2rem 0 1rem;
+
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%23ffffff'><polygon points='0,0 10,0 5,5'/></svg>");
+	background-position: right 1rem top 60%;
+	background-repeat: no-repeat;
+}
+
+:where(input:not([type="checkbox"]):not([type="submit"]), textarea, select):hover,
+.wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):hover,
+.wp-block-post-comments-form textarea:hover,
+.wp-block-search__input:hover  {
+	border-color: var(--wp--preset--color--contrast-2);
+}
+
+:where(input:not([type="checkbox"]):not([type="submit"]), textarea, select):focus,
+.wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):focus,
+.wp-block-post-comments-form textarea:focus,
+.wp-block-search__input:focus  {
+	border-color: var(--wp--preset--color--contrast-2);
+	outline: none;
+}
+
+:where(input:not([type="checkbox"]):not([type="submit"]), textarea, select):disabled,
+.wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):disabled,
+.wp-block-post-comments-form textarea:disabled,
+.wp-block-search__input:disabled  {
+	opacity: 0.8;
+}
+
+textarea {
+	resize: vertical;
+	height: 8lh;
+}
+
+/*
+Radio, checkbox
+*/
+
+input[type="radio"],
+input[type="checkbox"] {
+	position: relative;
+	border: 1px solid var(--wp--preset--color--contrast-3) !important;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	display: inline;
+	margin-bottom: 0;
+	margin-left: 0.25em;
+	font-weight: var(--wp--custom--font-weight--text);
+}
+
+/*-------------------------------------------------------
+Theme layout
+-------------------------------------------------------*/
+
+.wp-site-blocks {
+	position: relative;
+}
+
+/*
+Set min height for main content
+*/
+
+main.content {
+	margin-top: 0;
+
+	min-height: 100vh;
+	min-height: 100lvh;
+}
+
+/*
+Adds top and bottom spacings to main content
+*/
+
+main.content:not([style*="padding-top"]) {
+	padding-top: var(--wp--custom--spacing--global-padding-top);
+}
+
+main.content:not([style*="padding-bottom"]) {
+	padding-bottom: var(--wp--custom--spacing--global-padding-bottom);
+}
+
+/*-------------------------------------------------------
+Header
+-------------------------------------------------------*/
+
+.header {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	pointer-events: none;
+}
+
+/*-------------------------------------------------------
+Post & page
+-------------------------------------------------------*/
+
+/*
+Entry meta
+*/
+
+.entry-meta > * {
+	position: relative;
+}
+
+/*
+Entry title
+*/
+
+.entry-title {
+	transform: translateX(-0.1rem);
+}
+
+@media only screen and (min-width: 600px) {
+	.entry-title {
+		transform: translateX(-0.2rem);
+	}
+}
+
+/*
+Entry footer
+*/
+
+.entry-footer:not(:has(*)) {
+	display: none;
+}
+
+/*-------------------------------------------------------
+Archive
+-------------------------------------------------------*/
+
+/*
+Page title
+*/
+
+.page-header > .wp-block-heading {
+	grid-column: 1 / -1;
+}
+
+.page-header > .wp-block-heading:not([class*="-font-size"]) {
+	font-size: clamp(2.625rem, 6.09375vw + 1.40625rem, 7.5rem);
+}
+
+/*
+Page description
+*/
+
+.page-header > p {
+	grid-column: 1 / -1;
+}
+
+.page-header > p:not([class*="-font-size"]) {
+	font-size: clamp(1.125rem, 0.78125vi + 0.96875rem, 1.75rem);
+	line-height: 1.33333;
+}
+
+@media only screen and (min-width: 600px) {
+	.page-header > p {
+		grid-column: 3 / 9;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.page-header > p {
+		grid-column: 5 / 9;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.page-header > p {
+		grid-column: 7 / 13;
+	}
+}
+
+/*-------------------------------------------------------
+Footer
+-------------------------------------------------------*/
+
+.footer {
+	position: absolute !important;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 1000;
+	pointer-events: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.footer-container > .wp-block-group {
+		gap: 0.25rem var(--wp--preset--spacing--20);
+	}
+}
+
+.footer-container > .wp-block-group > * {
+	pointer-events: auto;
+	line-height: var(--wp--style--block-gap);
+}
+
+/*
+Footer links
+*/
+
+.footer-container a {
+	display: inline-block;
+	text-decoration: none;
+
+	background-image: linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
+	background-size: 0 1px;
+	background-position: 100% 90%;
+	background-repeat: no-repeat;
+
+	transition: color 0.35s ease-in-out, background-size 0.35s ease-in-out;
+}
+
+.footer-container a:hover,
+.footer-container a:focus,
+.footer-container a:active {
+	background-size: 100% 1px;
+	background-position: 0 90%;
+}

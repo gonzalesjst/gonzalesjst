@@ -1,0 +1,27 @@
+/*-------------------------------------------------------
+Search
+-------------------------------------------------------*/
+
+.wp-block-search .wp-block-search__button {
+	margin-left: 0.75rem !important;
+	border-radius: 0.25rem;
+}
+
+.wp-block-search__inside-wrapper {
+	margin-top: 0;
+}
+
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
+	background-color: var(--wp--preset--color--base-2);
+	border-color: var(--wp--preset--color--contrast-3);
+	border-radius: 0.25rem;
+}
+
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input {
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__button {
+	margin-left: 0 !important;
+}

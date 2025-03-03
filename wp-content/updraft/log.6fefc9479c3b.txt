@@ -1,0 +1,295 @@
+0000.000 (0) Opened log file at time: Mon, 03 Mar 2025 02:26:40 +0000 on http://localhost/gonzalesjst
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP-8EVQ6H79 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55.9M | 58M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 126380.1 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.035 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.047 (0) Set semaphore last lock (fd) time to 2025-03-03 02:26:40
+0000.048 (0) Semaphore lock (fd) complete
+0000.069 (0) Backup run: resumption=0, nonce=6fefc9479c3b, file_nonce=6fefc9479c3b begun at=1740968800 (0s ago), job type=backup
+0000.071 (0) Scheduling a resumption (1) after 300 seconds (1740969100) in case this run gets aborted
+0000.105 (0) Checking if we have a zip executable available
+0000.108 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.109 (0) Creation of backups of directories: beginning
+0000.121 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.811 (0) Total entities for the zip file: 993 directories, 5085 files (0 skipped as non-modified), 93.3 MB
+0000.822 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 95497.1 KB, split: 409600 KB)
+0000.837 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.849 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.861 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.871 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.880 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.889 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.898 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.915 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.925 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.943 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.953 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0000.971 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0000.982 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0001.001 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0001.010 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0001.029 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0001.039 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0001.057 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0001.067 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0001.077 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0001.087 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0001.097 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0001.106 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0001.116 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0001.126 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0001.136 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0001.148 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0001.161 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0001.180 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0001.192 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0001.211 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0001.222 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0001.242 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0001.253 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0001.273 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0001.284 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0001.303 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0001.312 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0001.330 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0001.341 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0001.351 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0001.362 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0001.372 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0001.383 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0001.394 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0001.406 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0001.416 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0001.428 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0001.440 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0001.452 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0109.597 (0) Creating zip file manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.list-temp.tmp)
+0109.609 (0) Successfully created zip file manifest (size: 419825)
+0109.759 (0) Created plugins zip (0) - 26703.9 KB in 109.6 s (243.6 KB/s) (sha1: b866e37a3f312a5bf678b4a690be4938a9bfa377, sha256: eb93733e48636cdf9dbff5202d7de75d694c064289f4f43b3daf57afcc42bc45)
+0109.766 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0109.767 (0) No remote despatch: user chose no remote backup service
+0109.768 (0) Recording as successfully uploaded: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip
+0109.770 (0) Deleting zip manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip.list.tmp)
+0109.773 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0109.774 (0) Number of backup sets in history: 1; groups (db): 1
+0109.775 (0) Examining (for databases) backup set with group_id=0, nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0109.776 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0109.777 (0) Number of backup sets in history: 1; groups (files): 1
+0109.778 (0) Examining (for files) backup set with nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0109.778 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0109.779 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0109.784 (0) Beginning creation of dump of themes (split every: 400 MB)
+0109.842 (0) Total entities for the zip file: 76 directories, 539 files (0 skipped as non-modified), 16.1 MB
+0109.844 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 16524.5 KB, split: 409600 KB)
+0109.855 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0109.865 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0109.876 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0109.887 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0109.896 (0) Zip: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0120.484 (0) Creating zip file manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip.list-temp.tmp)
+0120.487 (0) Successfully created zip file manifest (size: 35179)
+0120.578 (0) Created themes zip (0) - 14241.4 KB in 10.8 s (1319.8 KB/s) (sha1: f4892cb83ddb3a8837e921fb9cc2645081c847c0, sha256: a737e06e4c2b4627c1938bc3a7232a14fb0dd6a18133708152765d0b6110ab4b)
+0120.584 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0120.586 (0) No remote despatch: user chose no remote backup service
+0120.587 (0) Recording as successfully uploaded: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip
+0120.589 (0) Deleting zip manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip.list.tmp)
+0120.591 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0120.592 (0) Number of backup sets in history: 1; groups (db): 1
+0120.593 (0) Examining (for databases) backup set with group_id=0, nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0120.594 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0120.595 (0) Number of backup sets in history: 1; groups (files): 1
+0120.595 (0) Examining (for files) backup set with nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0120.595 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0120.596 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0120.601 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0120.602 (0) Looking for candidates to backup in: C:\XAMPP\htdocs\gonzalesjst/wp-content/uploads
+0120.603 (0) finding files: 2025: adding to list (1)
+0120.604 (0) finding files: elementor: adding to list (2)
+0120.605 (0) finding files: fonts: adding to list (3)
+0120.606 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0120.615 (0) Total entities for the zip file: 6 directories, 44 files (0 skipped as non-modified), 7.7 MB
+0120.621 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 7852 KB, split: 409600 KB)
+0121.165 (0) Creating zip file manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-uploads.zip.list-temp.tmp)
+0121.167 (0) Successfully created zip file manifest (size: 2564)
+0121.212 (0) Created uploads zip (0) - 7536.2 KB in 0.6 s (12505.3 KB/s) (sha1: 93ce2574e2dda7d47456da94e0f7fd6e561cd81d, sha256: fa4781ec93d3edee2cb81024abcc9444d36f128cbb756dd7ea0557668b2cb095)
+0121.215 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0121.216 (0) No remote despatch: user chose no remote backup service
+0121.217 (0) Recording as successfully uploaded: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-uploads.zip
+0121.219 (0) Deleting zip manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-uploads.zip.list.tmp)
+0121.220 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0121.221 (0) Number of backup sets in history: 1; groups (db): 1
+0121.222 (0) Examining (for databases) backup set with group_id=0, nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0121.222 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0121.223 (0) Number of backup sets in history: 1; groups (files): 1
+0121.224 (0) Examining (for files) backup set with nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0121.224 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0121.225 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0121.229 (0) No backup of mu-plugins: excluded by user's options
+0121.230 (0) Beginning backup of other directories found in the content directory (index: 0)
+0121.231 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0121.232 (0) Looking for candidates to backup in: C:\XAMPP\htdocs\gonzalesjst/wp-content
+0121.233 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0121.233 (0) finding files: index.php: adding to list (1)
+0121.234 (0) finding files: plugins: skipping: this is the plugins directory
+0121.235 (0) finding files: themes: skipping: this is the themes directory
+0121.235 (0) finding files: updraft: skipping: this is the updraft directory
+0121.236 (0) finding files: upgrade: skipping: excluded by options
+0121.236 (0) finding files: upgrade-temp-backup: adding to list (2)
+0121.237 (0) finding files: uploads: skipping: this is the uploads directory
+0121.240 (0) Total entities for the zip file: 2 directories, 1 files (0 skipped as non-modified), 0 MB
+0121.241 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 0 KB, split: 409600 KB)
+0121.265 (0) Creating zip file manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-others.zip.list-temp.tmp)
+0121.267 (0) Successfully created zip file manifest (size: 43)
+0121.272 (0) Created others zip (0) - 0.4 KB in 0 s (11.9 KB/s) (sha1: f23950456bbe56fc6ac30ce4d23353091169a4ec, sha256: 558824066decdc98cc06e7dd499bf9b11f79df4f5e01d231325efd5d62e11fd1)
+0121.276 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0121.277 (0) No remote despatch: user chose no remote backup service
+0121.278 (0) Recording as successfully uploaded: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-others.zip
+0121.280 (0) Deleting zip manifest (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-others.zip.list.tmp)
+0121.282 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0121.283 (0) Number of backup sets in history: 1; groups (db): 1
+0121.284 (0) Examining (for databases) backup set with group_id=0, nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0121.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0121.284 (0) Number of backup sets in history: 1; groups (files): 1
+0121.285 (0) Examining (for files) backup set with nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0121.285 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0121.285 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0121.291 (0) Saving backup status to database (elements: 8)
+0121.294 (0) Beginning creation of database dump (WordPress DB)
+0121.295 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0121.332 (0) Table wp_options: Total expected rows (via COUNT): 305
+0121.333 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.394 (0) Table wp_options: Rows added in this batch (next record: 1204): 301 (uncompressed bytes in this segment=3306076) in 0.09 seconds
+0121.402 (0) Table wp_options: finishing file(s) (2, 546.3 KB)
+0121.410 (0) Table wp_users: Total expected rows (via COUNT): 1
+0121.411 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.413 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1170) in 0.01 seconds
+0121.417 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0121.423 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0121.423 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.425 (0) Table wp_usermeta: Rows added in this batch (next record: 30): 28 (uncompressed bytes in this segment=5124) in 0.01 seconds
+0121.430 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0121.438 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0121.439 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0121.443 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0121.448 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0121.449 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.451 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1893) in 0.01 seconds
+0121.454 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0121.461 (0) Table wp_links: Total expected rows (via COUNT): 0
+0121.462 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0121.466 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0121.472 (0) Table wp_postmeta: Total expected rows (via COUNT): 484
+0121.472 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.476 (0) Table wp_postmeta: Rows added in this batch (next record: 1065): 484 (uncompressed bytes in this segment=37955) in 0.01 seconds
+0121.480 (0) Table wp_postmeta: finishing file(s) (2, 5.5 KB)
+0121.570 (0) Table wp_posts: Total expected rows (via COUNT): 384
+0121.571 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.733 (0) Table wp_posts: Rows added in this batch (next record: 512): 384 (uncompressed bytes in this segment=10150503) in 0.25 seconds
+0121.740 (0) Table wp_posts: finishing file(s) (2, 777.8 KB)
+0121.748 (0) Table wp_term_relationships: Total expected rows (approximate): 10
+0121.751 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 10 (uncompressed bytes in this segment=816) in 0.01 seconds
+0121.755 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0121.761 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 5
+0121.762 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.764 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1008) in 0.01 seconds
+0121.769 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0121.776 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0121.778 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.01 seconds
+0121.782 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0121.787 (0) Table wp_terms: Total expected rows (via COUNT): 5
+0121.788 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.789 (0) Table wp_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=778) in 0.00 seconds
+0121.793 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0121.800 (0) Table wp_e_events: Total expected rows (via COUNT): 8
+0121.801 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.802 (0) Table wp_e_events: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2152) in 0.00 seconds
+0121.807 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0121.817 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 11
+0121.818 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.819 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 27): 11 (uncompressed bytes in this segment=8485) in 0.01 seconds
+0121.824 (0) Table wp_yoast_indexable: finishing file(s) (2, 2 KB)
+0121.831 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 7
+0121.833 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 7 (uncompressed bytes in this segment=906) in 0.00 seconds
+0121.837 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0121.844 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0121.845 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.848 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1234) in 0.01 seconds
+0121.852 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0121.859 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0121.861 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0121.873 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0121.898 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 60
+0121.903 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0121.911 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 75): 60 (uncompressed bytes in this segment=7901) in 0.02 seconds
+0121.917 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1.3 KB)
+0121.918 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\XAMPP\htdocs\gonzalesjst/wp-content/updraft/backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db.gz (line 1923, C:\XAMPP\htdocs\gonzalesjst\wp-content\plugins\updraftplus\backup.php)
+0121.919 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_options.table.tmpr1205.gz (1/18/fopen): adding to final database dump
+0121.927 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_options.table.gz (2/18/fopen): adding to final database dump
+0121.928 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_users.table.tmpr2.gz (3/18/fopen): adding to final database dump
+0121.929 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_users.table.gz (4/18/fopen): adding to final database dump
+0121.930 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_usermeta.table.tmpr31.gz (5/18/fopen): adding to final database dump
+0121.931 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_usermeta.table.gz (6/18/fopen): adding to final database dump
+0121.931 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_commentmeta.table.tmpr0.gz (7/18/fopen): adding to final database dump
+0121.932 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_commentmeta.table.gz (8/18/fopen): adding to final database dump
+0121.934 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_comments.table.tmpr2.gz (9/18/fopen): adding to final database dump
+0121.935 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_comments.table.gz (10/18/fopen): adding to final database dump
+0121.936 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_links.table.tmpr0.gz (11/18/fopen): adding to final database dump
+0121.937 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_links.table.gz (12/18/fopen): adding to final database dump
+0121.938 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_postmeta.table.tmpr1066.gz (13/18/fopen): adding to final database dump
+0121.938 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_postmeta.table.gz (14/18/fopen): adding to final database dump
+0121.939 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_posts.table.tmpr513.gz (15/18/fopen): adding to final database dump
+0121.949 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_posts.table.gz (16/18/fopen): adding to final database dump
+0121.950 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_term_relationships.table.tmpr100001.gz (17/18/fopen): adding to final database dump
+0121.951 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_term_relationships.table.gz (18/18/fopen): adding to final database dump
+0121.952 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_term_taxonomy.table.tmpr6.gz (19/18/fopen): adding to final database dump
+0121.953 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_term_taxonomy.table.gz (20/18/fopen): adding to final database dump
+0121.954 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_termmeta.table.tmpr0.gz (21/18/fopen): adding to final database dump
+0121.955 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_termmeta.table.gz (22/18/fopen): adding to final database dump
+0121.955 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_terms.table.tmpr6.gz (23/18/fopen): adding to final database dump
+0121.956 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_terms.table.gz (24/18/fopen): adding to final database dump
+0121.957 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_e_events.table.tmpr9.gz (25/18/fopen): adding to final database dump
+0121.958 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_e_events.table.gz (26/18/fopen): adding to final database dump
+0121.959 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_indexable.table.tmpr28.gz (27/18/fopen): adding to final database dump
+0121.960 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_indexable.table.gz (28/18/fopen): adding to final database dump
+0121.961 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (29/18/fopen): adding to final database dump
+0121.961 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_indexable_hierarchy.table.gz (30/18/fopen): adding to final database dump
+0121.962 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_migrations.table.tmpr25.gz (31/18/fopen): adding to final database dump
+0121.963 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_migrations.table.gz (32/18/fopen): adding to final database dump
+0121.963 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_primary_term.table.tmpr0.gz (33/18/fopen): adding to final database dump
+0121.964 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_primary_term.table.gz (34/18/fopen): adding to final database dump
+0121.965 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_seo_links.table.tmpr76.gz (35/18/fopen): adding to final database dump
+0121.966 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db-table-wp_yoast_seo_links.table.gz (36/18/fopen): adding to final database dump
+0121.990 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db.gz: finished writing out complete database file (1341.3 KB)
+0122.007 (0) Total database tables backed up: 18 (backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db.gz, size: 1373664, sha1: fd34f9f5a20a9f9a8ed8a3088ff8afae39a0d479, sha256: 9add608905a5c82d5fbd8b00a8f006bb068ad28559eaa15bfe2b4e93c751a6d8)
+0122.011 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-plugins.zip: plugins: This file has already been successfully processed
+0122.012 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-themes.zip: themes: This file has already been successfully processed
+0122.013 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-uploads.zip: uploads: This file has already been successfully processed
+0122.013 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-others.zip: others: This file has already been successfully processed
+0122.014 (0) backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0122.015 (0) Saving backup history. Total backup size: 48.7 MB
+0122.017 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0122.019 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0122.020 (0) No remote despatch: user chose no remote backup service
+0122.021 (0) Recording as successfully uploaded: backup_2025-03-03-0226_Justin_Gonzales_6fefc9479c3b-db.gz
+0122.024 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0122.025 (0) Number of backup sets in history: 2; groups (db): 1
+0122.026 (0) Examining (for databases) backup set with group_id=0, nonce=6fefc9479c3b, datestamp=1740968800 (Mar 03 2025 02:26:40)
+0122.026 (0) This backup set is the backup set just made, so will not be deleted.
+0122.026 (0) Examining (for databases) backup set with group_id=0, nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0122.026 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.027 (0) Number of backup sets in history: 2; groups (files): 1
+0122.028 (0) Examining (for files) backup set with nonce=6fefc9479c3b, datestamp=1740968800 (Mar 03 2025 02:26:40)
+0122.028 (0) This backup set is the backup set just made, so will not be deleted.
+0122.028 (0) This backup set is the backup set just made, so will not be deleted.
+0122.028 (0) This backup set is the backup set just made, so will not be deleted.
+0122.028 (0) This backup set is the backup set just made, so will not be deleted.
+0122.028 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.029 (0) Examining (for files) backup set with nonce=a4eacd812ee0, datestamp=1740932504 (Mar 02 2025 16:21:44)
+0122.029 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.029 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0122.031 (0) Resume backup (6fefc9479c3b, 0): finish run
+0122.032 (0) Decremented the semaphore (fd) by 1
+0122.033 (0) Semaphore (fd) unlocked
+0122.034 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0122.037 (0) No email will/can be sent - the user has not configured an email address.
+0122.038 (0) The backup succeeded and is now complete

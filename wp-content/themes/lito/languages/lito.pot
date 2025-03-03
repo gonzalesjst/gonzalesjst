@@ -1,0 +1,1125 @@
+# Copyright (C) 2024 Bogdan Bendziukov
+# This file is distributed under the GNU GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lito 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/svitanok\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-04T08:09:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: lito\n"
+
+#. Theme Name of the theme
+#: functions.php:591
+msgid "Lito"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://lito.bogdan.kyiv.ua/"
+msgstr ""
+
+#. Description of the theme
+msgid "Lito is a simple and clean theme with a lot of customization options. It is designed to be used with the Gutenberg editor and supports the wide and full-width blocks. The theme is fully responsive and accessible. The theme is suitable for blogs, portfolios, and business websites."
+msgstr ""
+
+#. Author of the theme
+msgid "Bogdan Bendziukov"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://bogdan.kyiv.ua/"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:50
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:84
+#: comments.php:111
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:85
+#: comments.php:112
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:86
+#: comments.php:113
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:123
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:54
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:74
+msgid "Footer %d"
+msgstr ""
+
+#: functions.php:76
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:87
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:89
+msgid "Add widgets here to appear in your copyright."
+msgstr ""
+
+#: functions.php:99
+msgid "Sidebar on the left (archive)"
+msgstr ""
+
+#: functions.php:101
+msgid "Add widgets here to appear in your left sidebar on archive pages (categories, tags, search)."
+msgstr ""
+
+#: functions.php:111
+msgid "Sidebar on the right (archive)"
+msgstr ""
+
+#: functions.php:113
+msgid "Add widgets here to appear in your right sidebar on archive pages (categories, tags, search)."
+msgstr ""
+
+#: functions.php:123
+msgid "Sidebar on the left (single post)"
+msgstr ""
+
+#: functions.php:125
+msgid "Add widgets here to appear in your left sidebar on single post pages."
+msgstr ""
+
+#: functions.php:135
+msgid "Sidebar on the right (single post)"
+msgstr ""
+
+#: functions.php:137
+msgid "Add widgets here to appear in your right sidebar on single post pages."
+msgstr ""
+
+#: functions.php:147
+msgid "Sidebar on the left (single page)"
+msgstr ""
+
+#: functions.php:149
+msgid "Add widgets here to appear in your left sidebar on single page pages."
+msgstr ""
+
+#: functions.php:159
+msgid "Sidebar on the right (single page)"
+msgstr ""
+
+#: functions.php:161
+msgid "Add widgets here to appear in your right sidebar on single page pages."
+msgstr ""
+
+#: functions.php:393
+#: functions.php:397
+#: functions.php:401
+#: functions.php:405
+msgid "Autostack columns"
+msgstr ""
+
+#: functions.php:409
+msgid "Compact"
+msgstr ""
+
+#: functions.php:413
+#: functions.php:417
+msgid "Stretch"
+msgstr ""
+
+#: functions.php:421
+msgid "Text"
+msgstr ""
+
+#: functions.php:425
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:429
+msgid "Clean"
+msgstr ""
+
+#: functions.php:592
+msgid "Lito theme block patterns"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:83
+#: inc/customizer.php:746
+#: inc/customizer.php:1077
+#: inc/customizer.php:1216
+msgid "None"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:84
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:85
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:86
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:167
+msgid "Default font"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:179
+msgid "Font size in rem"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:183
+msgid "<code>rem</code> is a font size of the root element. This value depends on browser settings. For your browser <code>1rem = <span></span></code>"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:200
+msgid "Font weight"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:214
+msgid "Text transform"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:232
+msgid "Line height"
+msgstr ""
+
+#: inc/customizer-custom-controls/font/class-font-control.php:239
+msgid "Letter spacing"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Header options"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Site header type"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Header 1"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Header 2"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Site header layout"
+msgstr ""
+
+#: inc/customizer.php:155
+#: inc/customizer.php:300
+#: inc/customizer.php:431
+#: inc/customizer.php:919
+#: inc/customizer.php:1168
+msgid "Container"
+msgstr ""
+
+#: inc/customizer.php:156
+#: inc/customizer.php:301
+#: inc/customizer.php:432
+#: inc/customizer.php:920
+#: inc/customizer.php:1169
+msgid "Full width"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Sticky header"
+msgstr ""
+
+#: inc/customizer.php:199
+msgid "Hide header on scroll down"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid "Enable search in the header"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:248
+msgid "Footer options"
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "Site footer type"
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Footer 1"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "Footer 2"
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Site footer layout"
+msgstr ""
+
+#: inc/customizer.php:323
+msgid "Number of footer columns"
+msgstr ""
+
+#: inc/customizer.php:351
+msgid "Enable copyright section in the footer"
+msgstr ""
+
+#: inc/customizer.php:367
+msgid "Archive"
+msgstr ""
+
+#: inc/customizer.php:377
+msgid "Archive options"
+msgstr ""
+
+#: inc/customizer.php:399
+msgid "Archive post type"
+msgstr ""
+
+#: inc/customizer.php:400
+msgid "Choose the type of archive posts."
+msgstr ""
+
+#: inc/customizer.php:404
+#: inc/customizer.php:457
+#: inc/customizer.php:515
+#: inc/customizer.php:892
+#: inc/customizer.php:1141
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:405
+#: inc/customizer.php:517
+#: inc/customizer.php:893
+#: inc/customizer.php:1142
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer.php:406
+#: inc/customizer.php:894
+#: inc/customizer.php:1143
+msgid "Side"
+msgstr ""
+
+#: inc/customizer.php:427
+msgid "Archive layout"
+msgstr ""
+
+#: inc/customizer.php:453
+msgid "Archive grid"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Masonry"
+msgstr ""
+
+#: inc/customizer.php:459
+msgid "Sticky"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "Max. number of columns"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "The number of columns shown depends on the screen size."
+msgstr ""
+
+#: inc/customizer.php:511
+msgid "Archive header"
+msgstr ""
+
+#: inc/customizer.php:516
+msgid "Modern"
+msgstr ""
+
+#: inc/customizer.php:539
+#: inc/customizer.php:941
+#: inc/customizer.php:1190
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:562
+msgid "Show excerpt"
+msgstr ""
+
+#: inc/customizer.php:584
+msgid "Show \"Read more\" button"
+msgstr ""
+
+#: inc/customizer.php:607
+#: inc/customizer.php:963
+msgid "Show author"
+msgstr ""
+
+#: inc/customizer.php:629
+#: inc/customizer.php:985
+msgid "Show date"
+msgstr ""
+
+#: inc/customizer.php:651
+#: inc/customizer.php:1007
+msgid "Show tags"
+msgstr ""
+
+#: inc/customizer.php:673
+#: inc/customizer.php:1029
+msgid "Show categories"
+msgstr ""
+
+#: inc/customizer.php:695
+msgid "Hide title prefix"
+msgstr ""
+
+#: inc/customizer.php:696
+msgid "Hide the prefix \"Category:\" or \"Tag:\" in the title of the archive page."
+msgstr ""
+
+#: inc/customizer.php:719
+msgid "Include sticky posts"
+msgstr ""
+
+#: inc/customizer.php:720
+msgid "Show sticky posts in the archive."
+msgstr ""
+
+#: inc/customizer.php:742
+msgid "Archive sidebar"
+msgstr ""
+
+#: inc/customizer.php:747
+#: inc/customizer.php:1078
+#: inc/customizer.php:1217
+msgid "Left side"
+msgstr ""
+
+#: inc/customizer.php:748
+#: inc/customizer.php:1079
+#: inc/customizer.php:1218
+msgid "Right side"
+msgstr ""
+
+#: inc/customizer.php:749
+#: inc/customizer.php:1080
+#: inc/customizer.php:1219
+msgid "Both sides"
+msgstr ""
+
+#: inc/customizer.php:770
+#: inc/customizer.php:1101
+#: inc/customizer.php:1240
+msgid "Sticky sidebar"
+msgstr ""
+
+#: inc/customizer.php:793
+msgid "Show featured video"
+msgstr ""
+
+#: inc/customizer.php:794
+msgid "If the post has a video format with featured video, the video will be displayed instead of the featured image."
+msgstr ""
+
+#: inc/customizer.php:816
+msgid "Show featured gallery"
+msgstr ""
+
+#: inc/customizer.php:817
+msgid "If the post has a gallery format with featured gallery, the gallery will be displayed instead of the featured image."
+msgstr ""
+
+#: inc/customizer.php:839
+msgid "Show featured audio"
+msgstr ""
+
+#: inc/customizer.php:840
+msgid "If the post has an audio format with featured audio, the audio will be displayed instead of the featured image."
+msgstr ""
+
+#: inc/customizer.php:856
+msgid "Single"
+msgstr ""
+
+#: inc/customizer.php:866
+msgid "Single post options"
+msgstr ""
+
+#: inc/customizer.php:888
+msgid "Single post header type"
+msgstr ""
+
+#: inc/customizer.php:915
+msgid "Single post layout"
+msgstr ""
+
+#: inc/customizer.php:1051
+msgid "Show posts navigation"
+msgstr ""
+
+#: inc/customizer.php:1073
+msgid "Single post sidebar"
+msgstr ""
+
+#: inc/customizer.php:1115
+msgid "Single page options"
+msgstr ""
+
+#: inc/customizer.php:1137
+msgid "Single page header type"
+msgstr ""
+
+#: inc/customizer.php:1164
+msgid "Single page layout"
+msgstr ""
+
+#: inc/customizer.php:1212
+msgid "Single page sidebar"
+msgstr ""
+
+#: inc/customizer.php:1257
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:1267
+msgid "General colors"
+msgstr ""
+
+#: inc/customizer.php:1290
+msgid "Primary color"
+msgstr ""
+
+#: inc/customizer.php:1291
+msgid "Used for primary buttons, links, important call-to-action elements, and highlights."
+msgstr ""
+
+#: inc/customizer.php:1315
+msgid "Primary hover color"
+msgstr ""
+
+#: inc/customizer.php:1316
+msgid "Used for hover effects on primary elements."
+msgstr ""
+
+#: inc/customizer.php:1340
+msgid "Primary contrast color"
+msgstr ""
+
+#: inc/customizer.php:1341
+msgid "Contrast color to the primary color. If your primary color is dark - provide a light color here and vice versa."
+msgstr ""
+
+#: inc/customizer.php:1365
+msgid "Secondary color"
+msgstr ""
+
+#: inc/customizer.php:1366
+msgid "Used for secondary buttons, accents, and complementary elements."
+msgstr ""
+
+#: inc/customizer.php:1390
+msgid "Secondary hover color"
+msgstr ""
+
+#: inc/customizer.php:1391
+msgid "Used for hover effects on secondary elements."
+msgstr ""
+
+#: inc/customizer.php:1415
+msgid "Secondary contrast color"
+msgstr ""
+
+#: inc/customizer.php:1416
+msgid "Contrast color to the secondary color. If your secondary color is dark - provide a light color here and vice versa."
+msgstr ""
+
+#: inc/customizer.php:1440
+msgid "Light color"
+msgstr ""
+
+#: inc/customizer.php:1441
+msgid "Used for elements on dark backgrounds or for subtle accents."
+msgstr ""
+
+#: inc/customizer.php:1465
+msgid "Page background color"
+msgstr ""
+
+#: inc/customizer.php:1466
+msgid "Main background color for the website, providing a neutral backdrop."
+msgstr ""
+
+#: inc/customizer.php:1480
+msgid "Header colors"
+msgstr ""
+
+#: inc/customizer.php:1503
+msgid "Menu item color"
+msgstr ""
+
+#: inc/customizer.php:1527
+msgid "Menu item hover color"
+msgstr ""
+
+#: inc/customizer.php:1551
+msgid "Header background color"
+msgstr ""
+
+#: inc/customizer.php:1552
+#: inc/customizer.php:1590
+#: inc/customizer.php:1749
+msgid "Leave empty for the transparent background."
+msgstr ""
+
+#: inc/customizer.php:1566
+msgid "Footer colors"
+msgstr ""
+
+#: inc/customizer.php:1589
+msgid "Footer background color"
+msgstr ""
+
+#: inc/customizer.php:1614
+msgid "Footer text color"
+msgstr ""
+
+#: inc/customizer.php:1628
+msgid "Content colors"
+msgstr ""
+
+#: inc/customizer.php:1651
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer.php:1675
+msgid "Secondary text color"
+msgstr ""
+
+#: inc/customizer.php:1699
+msgid "Heading color"
+msgstr ""
+
+#: inc/customizer.php:1723
+msgid "Outline color"
+msgstr ""
+
+#: inc/customizer.php:1724
+msgid "Used for outlining focused or selected elements, providing visual emphasis."
+msgstr ""
+
+#: inc/customizer.php:1748
+msgid "Content background color"
+msgstr ""
+
+#: inc/customizer.php:1749
+msgid "Background color for the various content areas, such as sidebars, posts grid, comments."
+msgstr ""
+
+#: inc/customizer.php:1773
+msgid "Border color"
+msgstr ""
+
+#: inc/customizer.php:1774
+msgid "Used for borders around elements such as buttons, forms, or containers."
+msgstr ""
+
+#: inc/customizer.php:1791
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:1801
+msgid "Typography options"
+msgstr ""
+
+#: inc/customizer.php:1825
+msgid "Body font"
+msgstr ""
+
+#: inc/customizer.php:1826
+msgid "The standard body text used for general content throughout the website."
+msgstr ""
+
+#: inc/customizer.php:1856
+msgid "Header font"
+msgstr ""
+
+#: inc/customizer.php:1857
+msgid "Provide a font for the site header."
+msgstr ""
+
+#: inc/customizer.php:1888
+msgid "H%d font"
+msgstr ""
+
+#: inc/customizer.php:1889
+msgid "Provide font for H%d headings."
+msgstr ""
+
+#: inc/customizer.php:1912
+msgid "Global"
+msgstr ""
+
+#: inc/customizer.php:1922
+msgid "Global options"
+msgstr ""
+
+#: inc/customizer.php:1945
+msgid "Content width"
+msgstr ""
+
+#: inc/customizer.php:1946
+msgid "Adjust the width of the inner (text) content within your posts and pages. <br />Provide an integer number. <br /><strong>Must be smaller than the container width below!</strong>"
+msgstr ""
+
+#: inc/customizer.php:1973
+msgid "Container width"
+msgstr ""
+
+#: inc/customizer.php:1974
+msgid "Set the overall width of the content container for your site. This defines the maximum width for all content areas, including headers, footers. <br /> Provide an integer number. <br /><strong>Must be bigger than the content width above!</strong>"
+msgstr ""
+
+#: inc/customizer.php:2000
+msgid "Width units"
+msgstr ""
+
+#: inc/customizer.php:2001
+msgid "Select the units for the width values above."
+msgstr ""
+
+#: inc/customizer.php:2030
+msgid "Smooth scroll"
+msgstr ""
+
+#: inc/customizer.php:2206
+msgid "Invalid footer columns number."
+msgstr ""
+
+#: inc/customizer.php:2213
+msgid "Invalid archive columns number."
+msgstr ""
+
+#: inc/customizer.php:2221
+msgid "Content width must be less than container width."
+msgstr ""
+
+#: inc/customizer.php:2229
+msgid "Container width must be greater than content width."
+msgstr ""
+
+#: inc/layout.php:72
+msgid "Menu"
+msgstr ""
+
+#: inc/layout.php:171
+msgid "Search open"
+msgstr ""
+
+#: inc/layout.php:176
+msgid "Search close"
+msgstr ""
+
+#: inc/layout.php:581
+msgid "Author"
+msgstr ""
+
+#: inc/layout.php:613
+msgid "Posted on"
+msgstr ""
+
+#: inc/layout.php:673
+msgid "Categories"
+msgstr ""
+
+#: inc/layout.php:692
+msgid "Tags"
+msgstr ""
+
+#: inc/layout.php:711
+msgid "Comments"
+msgstr ""
+
+#: inc/layout.php:712
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/layout.php:712
+msgid "1 Comment"
+msgstr ""
+
+#: inc/layout.php:712
+msgid "% Comments"
+msgstr ""
+
+#: inc/layout.php:730
+#: inc/layout.php:1323
+msgid "Edit"
+msgstr ""
+
+#: inc/layout.php:888
+msgid "Your Latest Posts"
+msgstr ""
+
+#: inc/layout.php:892
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/layout.php:894
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/layout.php:972
+msgid "Read more"
+msgstr ""
+
+#: inc/layout.php:1222
+msgid "Play media"
+msgstr ""
+
+#: inc/layout.php:1295
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/layout.php:1316
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/layout.php:1327
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/layout.php:1389
+msgid "Previous page"
+msgstr ""
+
+#: inc/layout.php:1390
+msgid "Next page"
+msgstr ""
+
+#: inc/layout.php:1405
+msgid "Expand menu"
+msgstr ""
+
+#: inc/layout.php:1423
+msgid "You have no widgets in this sidebar area."
+msgstr ""
+
+#: inc/layout.php:1424
+msgid "To insert a widget here, go to %s and add widgets to the suitable sidebar."
+msgstr ""
+
+#: inc/layout.php:1424
+msgid "Appearance"
+msgstr ""
+
+#: inc/layout.php:1424
+msgid "Widgets"
+msgstr ""
+
+#: inc/layout.php:1448
+msgid "Previous Post"
+msgstr ""
+
+#: inc/layout.php:1456
+msgid "Next Post"
+msgstr ""
+
+#: inc/layout.php:1481
+msgid "Skip to content"
+msgstr ""
+
+#: searchform.php:8
+#: searchform.php:9
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:9
+msgctxt "placeholder"
+msgid "Search …"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/content/content-none.php:28
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content/content-none.php:30
+msgid "Page Not Found"
+msgstr ""
+
+#: template-parts/content/content-none.php:34
+msgid "Sorry, but there are no posts in this category."
+msgstr ""
+
+#: template-parts/content/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:39
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content/content-single.php:32
+msgid "Pages:"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 1"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 4"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 5"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Heading 6"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Body small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Body large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Heading 1"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Heading 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Heading 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Heading 4"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Heading 5"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Heading 6"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary contrast"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary contrast"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Link"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Link hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Focus (outline)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Content background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Header background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Footer background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Menu item"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Menu item hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Footer text"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X-Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2X-Large"
+msgstr ""

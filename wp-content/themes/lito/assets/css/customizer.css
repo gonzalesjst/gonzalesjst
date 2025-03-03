@@ -1,0 +1,38 @@
+.customize-control.customize-control-font {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+.customize-control.customize-control-font .select2-container {
+    max-width: 100%;
+}
+.customize-control .row-flex {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+.customize-control .row-flex > * {
+    width: calc(50% - 0.5em);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#customize-controls .customize-control-notifications-container:empty {
+    margin: 0;
+}
+.customize-control .customize-control-title .dashicons {
+    font-size: 1em;
+    line-height: 1.75;
+    margin: 0;
+}
+.customize-control-info-button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-left: 0.5em;
+    vertical-align: text-bottom;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+.customize-control-info-button:hover {
+    scale: 1.1;
+}

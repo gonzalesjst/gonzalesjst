@@ -1,0 +1,63 @@
+/*-------------------------------------------------------
+Grid
+-------------------------------------------------------*/
+
+.grid {
+	--grid-column-count: 4;
+
+	display: grid;
+	grid-template-columns: repeat(var(--grid-column-count), minmax(0, 1fr));
+	grid-template-rows: auto;
+	gap: 0 var(--wp--style--block-gap);
+}
+
+@media only screen and (min-width: 600px) {
+	.grid {
+		--grid-column-count: 8;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.grid {
+		--grid-column-count: 12;
+	}
+}
+
+/*
+Grid inner elements
+*/
+
+.grid > * {
+	grid-column: 1 / -1;
+	grid-row: auto;
+
+	width: 100%;
+	max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	.grid > * {
+		grid-column: 2 / 8;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.grid > * {
+		grid-column: 3 / 11;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.grid > * {
+		grid-column: 4 / 10;
+	}
+}
+
+/*
+Alignwide and alignfull inner elements
+*/
+
+.grid > .alignwide,
+.grid > .alignfull {
+	grid-column: 1 / -1;
+}

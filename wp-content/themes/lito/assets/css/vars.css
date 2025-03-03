@@ -1,0 +1,97 @@
+body:not(.admin-bar) {
+    --wp-admin--admin-bar--height: 0px; /* must set px */
+}
+:root {
+    --lito-base-spacing: 1rem; /* Base spacing unit in rem */
+    --lito-spacing-xxs: clamp( var(--lito-base-spacing) * 0.5, 0.75vw, var(--lito-base-spacing) * 0.75);
+    --lito-spacing-xs: clamp( var(--lito-base-spacing), 1.25vw, var(--lito-base-spacing) * 1.5);
+    --lito-spacing-s: clamp( var(--lito-base-spacing) * 1.5, 1.75vw, var(--lito-base-spacing) * 3);
+    --lito-spacing-m: clamp( var(--lito-base-spacing) * 2.5, 3vw, var(--lito-base-spacing) * 5);
+    --lito-spacing-l: clamp( var(--lito-base-spacing) * 4, 4.75vw, var(--lito-base-spacing) * 6);
+    --lito-spacing-xl: clamp( var(--lito-base-spacing) * 7, 7.75vw, var(--lito-base-spacing) * 10);
+    --lito-spacing-xxl: clamp( var(--lito-base-spacing) * 10, 12vw, var(--lito-base-spacing) * 15);
+
+    
+    --lito-spacing-outside: var(--lito-spacing-xxs);
+    --lito-spacing-content: var(--lito-spacing-s); /* space between content sections */
+    --lito-spacing-blocks: var(--lito-spacing-l); /* space between blocks */
+    --lito-spacing-site-header: var(--lito-spacing-xs); /* space for .site-header elements */
+    --lito-gap-block: var(--lito-spacing-s); /* gap for Gutenberg blocks */
+
+    --lito-spacing-paragraph: min(1rem, 1em);
+    --lito-spacing-paragraph-small: min(.5rem, .5em);
+    --lito-spacing-paragraph-large: min(2.5rem, 2.5em);
+    --lito-spacing-heading-top: min(2em, var(--lito-spacing-blocks), 5vw);
+    --lito-spacing-heading-bottom: min(1em, var(--lito-spacing-blocks), 3vw);
+    --lito-spacing-widget-title-bottom: min(1.5em, 1.5rem);
+    --lito-spacing-input-x: var(--lito-spacing-xs);
+    --lito-spacing-input-y: var(--lito-spacing-xxs);
+
+    --lito-min-width-col: 15rem; /* min width for content columns (sidebars, post grids, column blocks etc) */
+    --lito-min-width-submenu: 15rem; /* min width for header's submenu */
+    --lito-min-width-footer-col: 10rem; /* min width for footer columns */
+    --lito-min-height-cover-media: 30rem; /* min height for media in the archive cover post layout */
+    --lito-min-width-side-media: 5rem; /* min width for media in post navigation or in recent posts widget */
+    --lito-width-nav-item: max(2em, 2rem); /* width for nav item (page numbers navigation) */
+    --lito-width-search-button: 1.5em;
+    --lito-height-search-button: 1.5em;
+    --lito-max-height-header-logo: clamp(3rem, 10vh, 5rem);
+    --lito-min-height-stretch-video: min(20rem, 100vw); /* min height for video block with the stretch style  */
+    
+    --lito-dynamic-font-coeff: 1.5625vw;
+
+    --lito-font-size-body-small: max(14px, var(--wp--preset--font-size--body) * 0.75);
+    --lito-font-size-body-large: calc(var(--wp--preset--font-size--body) * 2);
+
+    --lito-color-overlay: rgba(0, 0, 0, 0.35);
+    --lito-color-required: #ff0000;
+    --lito-color-separator: rgba(0, 0, 0, 0.15);
+    
+    --lito-transition-duration: 0.275s;
+    --lito-transition-timing-function: cubic-bezier(.45,1.11,1,1);
+    --lito-transition:  opacity var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            top var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            bottom var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            left var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            right var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            color var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            background-color var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            transform var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            translate var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            scale var(--lito-transition-duration) var(--lito-transition-timing-function), 
+                            rotate var(--lito-transition-duration) var(--lito-transition-timing-function),
+                            border-color var(--lito-transition-duration) var(--lito-transition-timing-function),
+                            box-shadow var(--lito-transition-duration) var(--lito-transition-timing-function),
+                            -webkit-text-stroke-color var(--lito-transition-duration) var(--lito-transition-timing-function);
+
+
+    --lito-border-radius: 1.5rem; /*max(1rem, min(min(1.5vw, 1.5rem), (100vw - var(--lito-width-content) + 1px) ));*/
+    --lito-border-radius-inner: calc(var(--lito-border-radius) / 2);
+    --lito-border-radius-big: 25rem;
+    --lito-border-width: 1px;
+
+    --lito-shadow-s: 0px 0.6px 2.1px rgba(0, 0, 0, 0.022),
+    0px 1.5px 5.2px rgba(0, 0, 0, 0.031),
+    0px 3px 10.6px rgba(0, 0, 0, 0.039),
+    0px 6.2px 21.9px rgba(0, 0, 0, 0.048),
+    0px 17px 60px rgba(0, 0, 0, 0.07);
+    --lito-shadow-m: 0px 0.4px 1.1px rgba(0, 0, 0, 0.02),
+    0px 1.1px 2.7px rgba(0, 0, 0, 0.028),
+    0px 2px 5px rgba(0, 0, 0, 0.035),
+    0px 3.6px 8.9px rgba(0, 0, 0, 0.042),
+    0px 6.7px 16.7px rgba(0, 0, 0, 0.05),
+    0px 16px 40px rgba(0, 0, 0, 0.07);
+    --lito-shadow-l:0px 2.2px 1.7px rgba(0, 0, 0, 0.02),
+    0px 5.2px 4px rgba(0, 0, 0, 0.028),
+    0px 9.8px 7.5px rgba(0, 0, 0, 0.035),
+    0px 17.4px 13.4px rgba(0, 0, 0, 0.042),
+    0px 32.6px 25.1px rgba(0, 0, 0, 0.05),
+    0px 78px 60px rgba(0, 0, 0, 0.07)
+    ;
+    --lito-shadow-inset: inset 0px 0px 1em rgba(0, 0, 0, .5);
+
+    --lito-offset-sticky: calc(var(--lito-header-height) + var(--lito-spacing-content) + var(--wp-admin--admin-bar--height, 0px));
+
+}
+
+.editor-styles-wrapper {}
